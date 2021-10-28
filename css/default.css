@@ -702,7 +702,7 @@
   outline: none;
  
   color: #333;
-  text-indent: 5px;
+ 
 }
 #eventType,#DESTINATION{
   background-color:transparent !important;
@@ -750,10 +750,14 @@
   .career-content .text-box{padding: 0 20px;}
   
 }
-.register .resg-p input{padding-right: 356px !important;text-indent: 10px;}
+.register .resg-p input{padding-right: 356px !important;
+  /* text-indent: 10px; */
+}
 .for-date{padding-right: 100px !important;}
 @media (max-width:767px){
-  .register .resg-p input{padding-right: 70px !important;text-indent: 10px;}
+  .register .resg-p input{padding-right: 70px !important;
+    /* text-indent: 10px; */
+  }
   #eventType, #DESTINATION{margin-left: 0 !important;}
 }
 /* -- page contact --*/
@@ -1723,7 +1727,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   .register input{padding-right:10px;width: 350px;margin-bottom: 50px;}
   #eventType, #DESTINATION{padding-right:10px;width: 350px}
   .btn-submit input,.register .resg-p input{width: auto;}
-  .register .resg-in input{width: 215px;}
+  /* .register .resg-in input{width: 215px;} */
 }
 
 .the-center-img{width: 150px;}
