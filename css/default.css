@@ -1487,7 +1487,9 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   .header3-about .hero-arrow{
     margin:50px 0 0 !important
   }
-  .about-tlt .tlt-concept p{font-size: 20px !important;margin: 20px auto;}
+  .about-tlt .tlt-concept p{
+    /* font-size: 20px !important ; */
+   margin: 20px auto;}
   .our-news h6{margin-top: 20px !important;}
   .new-season .card-body{padding-bottom: 20px !important;}
   .for-center-img{text-align: center !important;padding-left: 0 !important;}
@@ -1914,7 +1916,9 @@ text-align: center;width: 100%;
   .div-hei-50{min-height: 50vh;}
   .p-font{width:100%;margin: 5vh auto;}
   .box-section{height: 200vh !important;width: 90%;margin: 0 auto}
-  .box-section-info{position: relative;margin-bottom: 50px;}
+  .box-section-info{position: relative;
+    /* margin-bottom: 50px;*/
+  } 
  
 }
 .imgbox-w-h{width: 100%;height: 90%;}
@@ -2125,4 +2129,23 @@ text-align: center;width: 100%;
   .branch-media-heig{display: none;}
 .branch-media-low{display: block;}
 
+}
+/* added by me */
+@media (max-width:767px){
+  .imgbox-w-h {
+    height: auto;
+}
+.about-section .container .text-center{
+  margin-bottom: 0px !important;
+}
+.box-section-info {
+  margin-bottom: 0px !important;
+}
+.my-7-5 {margin-top: 0rem !important;}
+.about-tlt .tlt-concept p{font-size: 18px !important;}
+.tlt-hospitality {
+  padding: 3rem  0rem;
+}
+.branch-tree p {margin-top: 2rem;}
+.box-section-info {top:38%;}
 }
