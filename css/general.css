@@ -10,7 +10,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'AlegreyaSans';
-  color: #333;
+  color: #121212;
 }
 
 a {
@@ -29,7 +29,12 @@ ul {
   display: flex;
 }
 li {
-  list-style: none;
+  list-style: none !important;
+  
+}
+.li-disc {
+  list-style: disc !important;
+  list-style-position: outside !important;
 }
 img {
     max-width: 100%;
@@ -43,7 +48,7 @@ button{
 }
 
 main a, footer a {
-  color: #333 ;
+  color: #121212 ;
 }
 
 
@@ -386,7 +391,7 @@ main a, footer a {
 }
 .my-7-5 {
   margin-top: 7rem !important;
-  margin-bottom: 5rem !important;
+  margin-bottom: 7rem !important;
 }
 .my-auto {
   margin-top: auto !important;
@@ -907,9 +912,9 @@ nav {
 .fit-cover{
   object-fit: cover;
 }
-.c-333{color: #333 !important;}
-.c-555{color: #555 !important;}
-.c-666{color: #666 !important;}
+.c-333{color: #121212 !important;}
+.c-555{color: #121212 !important;}
+.c-666{color: #121212 !important;}
 
 /* Footer */
 
@@ -922,7 +927,7 @@ footer {
   footer .content {
     display: flex;
     flex-wrap: wrap;
-    width: 86%;
+    width: 80%;
     margin: 0 auto;
     justify-content: center;
   }
@@ -1018,7 +1023,7 @@ footer {
   }
   @font-face{
     font-family: 'GillSansnew';
-    src: url(../fonts/GillSans.ttc);
+    src: url(../fonts/Gill-Sans.otf);
   }
   @font-face{
     font-family:'gillsans-regular';
@@ -1051,29 +1056,57 @@ footer {
   .AlegreyaSansSC18{ font-family: 'AlegreyaSansSC' !important;font-size: 16px !important;}
   .AlegreyaSansSC14{ font-family: 'AlegreyaSansSC' !important;font-size: 14px !important;}
   .AlegreyaSansSc24 {font-family: 'AlegreyaSansSC' !important;font-size:15px !important;}
-.AlegreyaSansScMedium{font-family:'AlegreyaSansScMedium' !important;font-size: 15px !important; }
-.AlegreyaSans-Bold{font-family:'AlegreyaSans-Bold' !important;font-size: 18px !important; }
-.AlegreyaSansBold27{font-family:'AlegreyaSans-Bold' !important;font-size: 24px !important; }
-.AlegreyaSansBold19{font-family:'AlegreyaSans-Bold' !important;font-size: 16px !important; }
-.GillSans-Light{font-family:'GillSans-Light' !important;font-size: 16px !important;}
-.GillSans-Light16{font-family:'GillSans-Light' !important;font-size: 16px !important;}
-.BigCaslon-35{font-family: 'BigCaslon'  !important;font-size:25px !important;font-weight: 100 !important;}
-.BigCaslon-30{font-family: 'BigCaslon'  !important;font-size:25px !important;font-weight: 100 !important;}
-.BigCaslon-26{font-family: 'BigCaslon'  !important;font-size:22px !important;font-weight: 100 !important;}
-.BigCaslon22{font-family: 'BigCaslon'  !important;font-size:16px !important;font-weight: 100 !important;}
-.alLight17{ font-family: 'AlegreyaSans' !important;font-size: 17px ;}
-.BigCaslon25{font-family: 'BigCaslon'  !important;font-size:20px !important}
-.BigCaslon-20{font-family: 'BigCaslon'  !important;font-size:16px !important}  
-.Caslon-MediumItalic-35{font-family: 'Caslon MediumItalic' !important;font-size:25px !important}
-.AlegreyaSansLight{ font-family: 'AlegreyaSans' !important; font-size:16px !important}
-.GillSans22{ font-family: 'GillSansnew' !important;font-size: 20px !important;}
-.GillSans19{ font-family: 'GillSansnew' !important;font-size: 16px !important;}
-.GillSansLight15{font-family:'GillSans-Light' !important;font-size: 15px !important;}
-.GillSansLight11{font-family:'GillSans-Light' !important;font-size: 11px !important;}
-.GillSansLight18{font-family:'GillSans-Light' !important;font-size: 12px !important;}
+  .AlegreyaSansScMedium{font-family:'AlegreyaSansScMedium' !important;font-size: 15px !important; }
+  .AlegreyaSans-Bold{font-family:'AlegreyaSans-Bold' !important;font-size: 18px !important; }
+  .AlegreyaSansBold27{font-family:'AlegreyaSans-Bold' !important;font-size: 24px !important; }
+  .AlegreyaSansBold19{font-family:'AlegreyaSans-Bold' !important;font-size: 16px !important; }
+  .GillSans-Light{font-family:'GillSans-Light' !important;font-size: 16px !important;}
+  .GillSans-Light16{font-family:'GillSans-Light' !important;font-size: 16px !important;}
+  .BigCaslon-35{font-family: 'Big Caslon'  !important;font-size:25px !important;font-weight: 100 !important;}
+  .BigCaslon-30{font-family: 'Big Caslon'  !important;font-size:25px !important;font-weight: 100 !important;}
+  .BigCaslon-26{font-family: 'Big Caslon'  !important;font-size:22px !important;font-weight: 100 !important;}
+  .BigCaslon22{font-family: 'Big Caslon'  !important;font-size:22px !important;font-weight: 100 !important;}
+  .alLight17{ font-family: 'AlegreyaSans' !important;font-size: 17px ;}
+  .BigCaslon25{font-family: 'Big Caslon'  !important;font-size:20px !important}
+  .BigCaslon-20{font-family: 'BigCaslon'  !important;font-size:16px !important}  
+  .Caslon-MediumItalic-35{font-family: 'Caslon MediumItalic' !important;font-size:25px !important}
+  .AlegreyaSansLight{ font-family: 'AlegreyaSans' !important; font-size:16px !important}
+  .GillSans22{ font-family: 'GillSansnew' !important;font-size: 20px !important;}
+  .GillSans19{ font-family: 'GillSansnew' !important;font-size: 16px !important;}
+  .GillSansLight15{font-family:'GillSans-Light' !important;font-size: 15px !important;}
+  .GillSansLight11{font-family:'GillSans-Light' !important;font-size: 11px !important;}
+  .GillSansLight18{font-family:'GillSans-Light' !important;font-size: 12px !important;}
+  @media (min-width:1900px){
+    .gill-regular{ font-family: 'GillSansnew' !important;font-size:19px !important}
+    .gillsans-regular{font-family:'gillsans-regular' !important; font-size:19px !important}
+    .AlegreyaSansSC21{ font-family: 'AlegreyaSansSC' !important;font-size: 21px !important;}
+    .AlegreyaSansSC18{ font-family: 'AlegreyaSansSC' !important;font-size: 18px !important;}
+    .AlegreyaSansSC14{ font-family: 'AlegreyaSansSC' !important;font-size: 14px !important;}
+    .AlegreyaSansSc24 {font-family: 'AlegreyaSansSC' !important;font-size:24px !important;}
+  .AlegreyaSansScMedium{font-family:'AlegreyaSansScMedium' !important;font-size: 21px !important; }
+  .AlegreyaSans-Bold{font-family:'AlegreyaSans-Bold' !important;font-size: 18px !important; }
+  .AlegreyaSansBold27{font-family:'AlegreyaSans-Bold' !important;font-size: 27px !important; }
+  .AlegreyaSansBold19{font-family:'AlegreyaSans-Bold' !important;font-size: 19px !important; }
+  .GillSans-Light{font-family:'GillSans-Light' !important;font-size: 19px !important;}
+  .GillSans-Light16{font-family:'GillSans-Light' !important;font-size: 19px !important;}
+  .BigCaslon-35{font-family: 'Big Caslon'  !important;font-size:35px !important;font-weight: 100 !important;}
+  .BigCaslon-30{font-family: 'Big Caslon'  !important;font-size:30px !important;font-weight: 100 !important;}
+  .BigCaslon-26{font-family: 'Big Caslon'  !important;font-size:26px !important;font-weight: 100 !important;}
+  .BigCaslon22{font-family: 'Big Caslon'  !important;font-size:22px !important;font-weight: 100 !important;}
+  .alLight17{ font-family: 'AlegreyaSans' !important;font-size: 17px ;}
+  .BigCaslon25{font-family: 'Big Caslon'  !important;font-size:25px !important}
+  .BigCaslon-20{font-family: 'BigCaslon'  !important;font-size:20px !important}  
+  .Caslon-MediumItalic-35{font-family: 'Caslon MediumItalic' !important;font-size:35px !important}
+  .AlegreyaSansLight{ font-family: 'AlegreyaSans' !important; font-size:19px !important}
+  .GillSans22{ font-family: 'GillSansnew' !important;font-size: 22px !important;}
+  .GillSans19{ font-family: 'GillSansnew' !important;font-size: 19px !important;}
+  .GillSansLight15{font-family:'GillSans-Light' !important;font-size: 15px !important;}
+  .GillSansLight11{font-family:'GillSans-Light' !important;font-size: 11px !important;}
+  .GillSansLight18{font-family:'GillSans-Light' !important;font-size: 18px !important;}
+  }
 .pl0 {padding-left: 0 !important;}
 .brands-logo{
-  height: 150px;border-top: 2px solid #ddd;border-bottom: 2px solid #ddd;padding:20px 0;
+  height: 200px;border-top: 2px solid #ddd;border-bottom: 2px solid #ddd;padding:20px 0;
   display: flex;justify-content: space-around;align-items: center;
  
   }

@@ -6640,7 +6640,7 @@ body{position: relative;}
 .navbar{position: absolute;}
 .navbar-2{position: relative;}
 .navbar .container{max-width: 1250px;}
-.navbar-expand-lg .navbar-nav .nav-link,.navbar-light .navbar-nav .active > .nav-link{text-transform: uppercase;font-family: 'AlegreyaSans';color: #fff;font-size: 14px !important;font-weight: 700;letter-spacing: 1.1px;}
+.navbar-expand-lg .navbar-nav .nav-link,.navbar-light .navbar-nav .active > .nav-link{text-transform: uppercase;font-family: 'AlegreyaSansSC';color: #fff;font-size: 14px !important;letter-spacing: 1.1px;}
 .navbar-expand-lg .navbar-nav .nav-link:hover{color: #fff;}
 .d-links{display: none;background: transparent !important;border: none;}
 .d-links::before{
@@ -6667,7 +6667,7 @@ body{position: relative;}
 .navbar-2 .d-links::before{ background: #000;}
 .navbar-3 .d-links::before{ background: #000;}
 
-.d-links a {color: #fff;padding: 0;font-size: 12px;font-family: 'AlegreyaSansSC' !important;font-weight: 100;opacity: .7;margin-top: -12px;}
+.d-links a {color: #fff;padding: 0;font-size: 12px;font-family: 'AlegreyaSansSC' !important;margin-top: -12px;}
 .d-links a:hover{color: #fff !important;}
 
 .d-hidden-li {display: none;}
