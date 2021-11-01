@@ -1954,7 +1954,8 @@ text-align: center;width: 100%;
 .card-img-top2{height:300px}
 .div-logo-center-5{position: absolute;left:50%;top: 50%;transform: translate(-50%,-50%);
   width: 90%;height: 80%;}
-  
+    
+
 @media (min-width:1100px){
 .for-ev{margin-top: -100px !important}
 }
@@ -2013,7 +2014,11 @@ text-align: center;width: 100%;
 .logos-width{width: 180px}
 .logos-width2{width: 120px}
 .con-my{margin: 1rem 0;}
+.career-top{margin-top: 50px;}
 @media (min-width:1900px){
+  .contact-b {
+    width: 35%;}
+    .contact{margin-bottom: 150px;}
   .con-my{margin: 3rem 0;}
   .btn-submit input{padding: 5px 15px 5px 15px !important;}
   .logos-width{width: 205px;margin-bottom: 20px;}
@@ -2048,7 +2053,7 @@ text-align: center;width: 100%;
 .text-w-50{width: 70%;}
 .tlt-hospitality .tlt-concept p, .tlt-living .tlt-concept p{max-width: 930px;}
 .tlt-events, .tlt-hospitality, .tlt-living{min-height: 70vh !important;}
-.branch-tree{margin-top: 5rem;}
+.branch-tree{margin-top: 2rem;}
 .branches-list{margin-top: 2rem !important;margin-bottom: 5rem !important;}
 .my-7-5 {
   margin-top: 5rem !important;
@@ -2106,22 +2111,33 @@ text-align: center;width: 100%;
   
   margin: -20px 0 25px;
 }
+.career-family{margin-bottom:150px !important;margin-top: 0;}
+.career-celebrate .celebrate{width: 43%;}
+.career-top{margin-top: 130px;margin-bottom: 170px;}
+.career-celebrate{
+ 
+  padding: 50px 0;margin-bottom: 180px;margin-top: 180px;
 }
-.lifestyle-1{background:url('../images/newLogo/Can Limon Hotel & Residences2.png') no-repeat center;background-size: cover;}
+.box-career{top: 60%;}
+}
+
+
+.lifestyle-1{background:url('../images/newLogo/Can\ Limon\ Concept\ Store.png') no-repeat center;background-size: 100%;transition: .3;}
+.lifestyle-1:hover{opacity: .7;}
 .living-4{background:url('../images/newLogo/can2.png') no-repeat center;background-size: 150%;}
-.living-3{background:url('../images/newLogo/TLT Boutique living.png') no-repeat center;background-size: contain;}
-.living-2{background:url('../images/newLogo/Rituals Village.png') no-repeat center;background-size: contain;}
-.living-1{background:url('../images/newLogo/Le Sidi Cabanas.png') no-repeat center;background-size: contain;}
-.event-1{background:url('../images/newLogo/Family _ Friends.png') no-repeat center;background-size: contain;}
+.living-3{background:url('../images/Logos-larg/PNG/Living/The\ Lemon\ Tree\ &\ Co.\ Boutique\ Living.png') no-repeat center;background-size: contain;}
+.living-2{background:url('../images/Logos-larg/PNG/Living/Rituals\ Village.png') no-repeat center;background-size: contain;}
+.living-1{background:url('../images/Logos-larg/PNG/Living/Le\ Sidi\ Cabanas.png') no-repeat center;background-size: contain;}
+.event-1{background:url('../images/Logos-larg/PNG/Events\ &\ Entertainment/Family & Friends.png') no-repeat center;background-size: contain;}
 .event-2{background:url('../images/Logos-larg/PNG/Events & Entertainment/Club Clandestine.png') no-repeat center;background-size: contain;}
 .event-3{background:url('../images/Logos-larg/PNG/Events & Entertainment/The Sound of The Lemon Tree.png') no-repeat center;background-size: contain;}
 .event-4{background:url('../images/newLogo/balearc.png') no-repeat center;background-size: contain;}
 .b-hos-1{background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;background-size: contain;}
-.b-hos-2{background:url('../images/newLogo/Rituals.png') no-repeat center;background-size: 95%;}
+.b-hos-2{background:url('../images/Logos-larg/PNG/Hospitality/Rituals.png') no-repeat center;background-size: 75%;}
 .b-hos-3{background:url('../images/Logos-larg/PNG/Hospitality/Le Sidi Boutique Hotel & Restaurant.png') no-repeat center;background-size: contain;}
 .b-hos-4{background:url('../images/Logos-larg/PNG/Hospitality/Villa Coconut.png') no-repeat center;background-size: contain;}
 .b-hos-5{background:url('../images/Logos-larg/PNG/Hospitality/The Quiet Cat.png') no-repeat center;background-size: contain;}
-.b-hos-6{background:url('../images/newLogo/Can Limon Restaurant.png') no-repeat center;background-size: contain;}
+.b-hos-6{background:url('../images/Logos-larg/PNG/Hospitality/Can\ Limon\ El\ Restaurante.png') no-repeat center;background-size: contain;}
 .b-hos-7{background:url('../images/Logos-larg/PNG/Hospitality/The Origins.png') no-repeat center;background-size: contain;}
 
 .branch-media-low{display: none;}
