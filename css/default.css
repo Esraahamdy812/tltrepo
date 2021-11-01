@@ -1020,11 +1020,12 @@
 .owl-carousel .owl-nav button.owl-prev{left: -22px;top: 32%;}
 .owl-carousel .owl-nav button.owl-next{right: -45px;top: 27%;}
 @media (max-width:767px){
-  .owl-carousel .owl-nav button.owl-prev{left: -20px;top: 30%;}
-  .owl-carousel .owl-nav button.owl-next{right: -25px;top: 28%;}
+  .owl-carousel .owl-nav button.owl-prev{left: -20px;top: 38%;}
+  .owl-carousel .owl-nav button.owl-next{right: -25px;top: 33%;}
   .ul-news{
     margin-right: 0px
   }
+  .owl-carousel .owl-dots{margin-top: 0;display: none;}
  
 }
 @media (max-width:1199px){
@@ -1087,7 +1088,10 @@
 @media (max-width:767px){
   .to-explore{top: -45px !important;}
   .frame-img{
-    width:230px !important;text-align: center;
+    width:280px !important;text-align: center;
+  }
+  .product .itemBox{
+   margin: 20px 20px 0 !important
   }
   /* .product .itemBox h4{margin-left: 13% !important;text-align: left !important;} */
 }
@@ -1626,7 +1630,18 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
 @media (max-width:767px){
   .btn-popup{display: none;}
   .btn-popup2{display: block;}
-  .for-filter ul li{font-size:18px !important;  margin: 0 !important;}
+  .for-filter ul li{font-size:12px !important;  margin: 0 !important;}
+  .for-filter ul{
+    
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: nowrap;
+     
+      align-content: flex-start;
+      flex-direction: row;
+  
+  }
   .to-time{
     display: none;position: absolute;
     top: 0px;background: #F8F7F7;
@@ -1637,7 +1652,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
 }
 .all-services .content-box img{width:300px !important;}
 .navbar-expand-lg .navbar-nav .nav-link, .navbar-light .navbar-nav .active > .nav-link{
-  font-size:10px ;
+  font-size:10px !important;
 }
 .hide-p{font-size: 15px !important;width:52%;margin: 0 auto;text-align: center;}
 @media (min-width:1500px) {
@@ -1955,7 +1970,7 @@ text-align: center;width: 100%;
 @media(max-width:767px){
   .home-st{width: 80%;}
   .home-st .BigCaslon-30{font-size: 16px !important;}
-  .home-header{height: 90vh;}
+  .home-header{height: 75vh;}
 }
 @media(min-width:768px) and (max-width:991px){
   .home-header{height: 90vh;}
@@ -1993,7 +2008,9 @@ text-align: center;width: 100%;
 .p-1920{padding-bottom: 15px;}
 .logos-width{width: 180px}
 .logos-width2{width: 120px}
+.con-my{margin: 1rem 0;}
 @media (min-width:1900px){
+  .con-my{margin: 3rem 0;}
   .btn-submit input{padding: 5px 15px 5px 15px !important;}
   .logos-width{width: 205px;margin-bottom: 20px;}
   .logos-width2{width: 180px}
@@ -2087,7 +2104,7 @@ text-align: center;width: 100%;
 }
 }
 .lifestyle-1{background:url('../images/newLogo/Can Limon Hotel & Residences2.png') no-repeat center;background-size: cover;}
-.living-4{background:url('../images/newLogo/can2.png') no-repeat center;background-size: cover;}
+.living-4{background:url('../images/newLogo/can2.png') no-repeat center;background-size: 150%;}
 .living-3{background:url('../images/newLogo/TLT Boutique living.png') no-repeat center;background-size: contain;}
 .living-2{background:url('../images/newLogo/Rituals Village.png') no-repeat center;background-size: contain;}
 .living-1{background:url('../images/newLogo/Le Sidi Cabanas.png') no-repeat center;background-size: contain;}
@@ -2096,7 +2113,7 @@ text-align: center;width: 100%;
 .event-3{background:url('../images/Logos-larg/PNG/Events & Entertainment/The Sound of The Lemon Tree.png') no-repeat center;background-size: contain;}
 .event-4{background:url('../images/newLogo/balearc.png') no-repeat center;background-size: contain;}
 .b-hos-1{background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;background-size: contain;}
-.b-hos-2{background:url('../images/newLogo/Rituals.png') no-repeat center;background-size: 80%;}
+.b-hos-2{background:url('../images/newLogo/Rituals.png') no-repeat center;background-size: 95%;}
 .b-hos-3{background:url('../images/Logos-larg/PNG/Hospitality/Le Sidi Boutique Hotel & Restaurant.png') no-repeat center;background-size: contain;}
 .b-hos-4{background:url('../images/Logos-larg/PNG/Hospitality/Villa Coconut.png') no-repeat center;background-size: contain;}
 .b-hos-5{background:url('../images/Logos-larg/PNG/Hospitality/The Quiet Cat.png') no-repeat center;background-size: contain;}

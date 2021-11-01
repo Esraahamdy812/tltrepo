@@ -351,6 +351,14 @@ main a, footer a {
  bottom: 17%;
   width: 90px;
 }
+@media (max-width:767px){
+  .mx-auto {
+    position: absolute;
+    bottom: 5%;
+    left: 40%;
+    width: 65px;
+}
+}
 @media (min-width:1500px){
   .mx-auto{width: 100px;bottom: 18%;}
 }
@@ -601,6 +609,12 @@ main a, footer a {
 .py-5 {
   padding-top: 3rem !important;
   padding-bottom: 3rem !important;
+}
+@media (max-width:767px){
+  .py-5 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+  }
 }
 
 
@@ -1076,6 +1090,9 @@ footer {
   .GillSansLight15{font-family:'GillSans-Light' !important;font-size: 15px !important;}
   .GillSansLight11{font-family:'GillSans-Light' !important;font-size: 11px !important;}
   .GillSansLight18{font-family:'GillSans-Light' !important;font-size: 12px !important;}
+  @media (max-width:767px){
+    .BigCaslon22{font-size: 16px !important;}
+  }
   @media (min-width:1900px){
     .gill-regular{ font-family: 'GillSansnew' !important;font-size:19px !important}
     .gillsans-regular{font-family:'gillsans-regular' !important; font-size:19px !important}
@@ -1104,6 +1121,7 @@ footer {
   .GillSansLight11{font-family:'GillSans-Light' !important;font-size: 11px !important;}
   .GillSansLight18{font-family:'GillSans-Light' !important;font-size: 18px !important;}
   }
+
 .pl0 {padding-left: 0 !important;}
 .brands-logo{
   height: 200px;border-top: 2px solid #ddd;border-bottom: 2px solid #ddd;padding:20px 0;
@@ -1168,6 +1186,13 @@ footer {
 
 .navbar-expand-lg .navbar-collapse{margin: 15px 0 !important;}
 .icon,.icon2{position: absolute;top: 30px; right:20px;width: 40px;height: 40px;cursor: pointer;background: transparent;}
+
+.hamb,.hamb2{
+  width: 28px;
+  height: 2px;
+  -webkit-position: absolute;top: 50%; left:40%;transform: translate(-50%,-50%);
+  -webkit-transition: .5s;
+}
 .hamb,.hamb2{
   width: 28px;
   height: 2px;
@@ -1175,8 +1200,16 @@ footer {
   transition: .5s;
 }
 .hamb{
-  background-color: #000;
-  box-shadow: 0 2px 5px rgba(0,0,0.2);
+  -webkit-background-color: #000;
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0.2);
+}
+.hamb{
+  -webkit-background-color: #000;
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0.2);
+}
+.hamb2{
+  -webkit-background-color: #fff;
+  -webkit-box-shadow: 0 2px 5px rgba(255, 255, 255);
 }
 .hamb2{
   background-color: #fff;
@@ -1190,8 +1223,16 @@ footer {
 
 }
 .hamb::before,.hamb::after{
+  -webkit-background-color: #000;
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0.2);
+}
+.hamb::before,.hamb::after{
   background-color: #000;
   box-shadow: 0 2px 5px rgba(0,0,0.2);
+}
+.hamb2::before,.hamb2::after{
+  background-color: #fff;
+  -webkit-box-shadow: 0 2px 5px rgba(255, 255, 255);
 }
 .hamb2::before,.hamb2::after{
   background-color: #fff;
@@ -1208,7 +1249,17 @@ footer {
 
 .icon.active .hamb{
   background-color:rgba(0,0,0,0);
+  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0);
+
+}
+.icon.active .hamb{
+  background-color:rgba(0,0,0,0);
   box-shadow: 0 2px 5px rgba(0,0,0,0);
+
+}
+.icon2.active .hamb2{
+  background-color:rgba(255, 255, 255, 0);
+  -webkit-box-shadow: 0 2px 5px rgba(255, 250, 250, 0);
 
 }
 .icon2.active .hamb2{
