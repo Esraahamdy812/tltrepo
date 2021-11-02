@@ -891,7 +891,7 @@
   .services-corporate .text-box p{width: 100%;margin: 0 auto;font-size: 16px !important;}
   .services-corporate .text-box ul{width: 95%;margin: 0 auto;}
   .event-lifetime .join-family p{width: 85%;}
-  .event-lifetime .join-family{padding: 20px 0 !important;}
+  .event-lifetime .join-family{padding: 20px 0 0px !important;}
   .contact-b{
     width: 75% !important;margin: 50px auto;
   }
@@ -1482,7 +1482,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   .AlegreyaSansScMedium{font-family:'AlegreyaSansScMedium' !important;font-size: 16px !important; }
   .alLight17{ font-family: 'AlegreyaSans' !important;font-size: 16px ;}
   .main-logo{width: 80px;margin-top: 20px;}
-  .BigCaslon-35{font-family: 'BigCaslon'  !important;font-size:20px !important;font-weight: 100 !important;}
+  .BigCaslon-35{font-family: 'Big Caslon'  !important;font-size:20px !important;font-weight: 100 !important;}
   .Caslon-MediumItalic-35{font-family: 'Caslon MediumItalic' !important;font-size:25px !important}
   .header3-about .hero-arrow{
     margin:50px 0 0 !important
@@ -1915,8 +1915,10 @@ text-align: center;width: 100%;
 @media (max-width:767px){
   .div-hei-50{min-height: 50vh;}
   .p-font{width:100%;margin: 5vh auto;}
-  .box-section{height: 200vh !important;width: 90%;margin: 0 auto}
-  .box-section-info{position: relative;
+  .box-section{height: 150vh !important;width: 90%;margin: 80px auto 20px}
+  .box-section-767{height: 120vh !important;margin: 0px auto 20px}
+  .box-section-cocon{height: 170vh !important;margin: 170px auto 20px}
+  .box-section-info{position: relative;overflow: hidden;
     /* margin-bottom: 50px;*/
   } 
  
@@ -2015,6 +2017,8 @@ text-align: center;width: 100%;
 .logos-width2{width: 120px}
 .con-my{margin: 1rem 0;}
 .career-top{margin-top: 50px;}
+.for-m-services{margin-bottom: 30px;}
+.logo-box-brands{margin:50px 0}
 @media (min-width:1900px){
   .contact-b {
     width: 35%;}
@@ -2119,6 +2123,8 @@ text-align: center;width: 100%;
   padding: 50px 0;margin-bottom: 180px;margin-top: 180px;
 }
 .box-career{top: 60%;}
+.for-m-services{margin-bottom: 120px;}
+.logo-box-brands{margin:100px 0}
 }
 
 
@@ -2146,6 +2152,7 @@ text-align: center;width: 100%;
 .branch-media-low{display: block;}
 
 }
+.w-66{width: 66%;}
 /* added by me */
 @media (max-width:767px){
   .imgbox-w-h {
@@ -2163,5 +2170,8 @@ text-align: center;width: 100%;
   padding: 3rem  0rem;
 }
 .branch-tree p {margin-top: 2rem;}
-.box-section-info {top:38%;}
+/* .box-section-info {bottom:0;z-index: 1000;} */
+.wed-ul{line-height: 1,2;}
+.logo-box-brands-hos{margin:12px 0}
+.w-66{width: 90%;}
 }
