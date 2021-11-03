@@ -622,7 +622,7 @@
   padding: 60px 0;margin:50px auto 100px
 }
 @media (max-width:767px){
-  .more-detalis,.more-detalis-1{width: 100%;padding: 30px;margin: 10px auto 30px;}
+  .more-detalis,.more-detalis-1{width: 100%;padding: 30px;margin: 60px auto 30px;min-height: 100px;}
 }
 /*-----------// more detalis --------*/
 /*----------view-img -----------*/
@@ -714,7 +714,15 @@
   outline: none;
   color: #999;
   text-indent: 0px;
+  font-family:'GillSans-Light' !important;
+  min-height: 26px;
   font-size: 12px;
+  
+}
+@media (min-width:1900px){
+  #eventType,#DESTINATION{
+    font-size: 14px;
+  }
 }
 #DESTINATION{padding-right: 140px;}
 .register .resg-in input{
@@ -939,8 +947,9 @@
 
 @media (max-width:767px){
 .all-services img{width: 80%;margin: 0 auto;}
-.all-services h3,.all-services p{margin: 30px 0;text-align: center !important;}
+.all-services p{margin: 30px 0;text-align: center !important;}
 .all-services p{width: 100% !important;}
+.all-services h3{margin: 70px 0 40px;text-align: center !important;}
 }
 
 
@@ -984,7 +993,7 @@
   }
 /*sound*/
 .sound-testimonial p {
-  width: 475px;margin: 150px auto 20px;font-size: 20px
+  width: 53.5%;margin: 220px auto 20px;font-size: 20px
 }
 @media (max-width:767px){
   .sound-testimonial p{font-size: 15px;width: auto;margin: 100px auto 20px;}
@@ -1020,8 +1029,8 @@
 .owl-carousel .owl-nav button.owl-prev{left: -22px;top: 32%;}
 .owl-carousel .owl-nav button.owl-next{right: -45px;top: 27%;}
 @media (max-width:767px){
-  .owl-carousel .owl-nav button.owl-prev{left: -20px;top: 38%;}
-  .owl-carousel .owl-nav button.owl-next{right: -25px;top: 33%;}
+  .owl-carousel .owl-nav button.owl-prev{left: -20px;top: 42%;}
+  .owl-carousel .owl-nav button.owl-next{right: -25px;top: 37%;}
   .ul-news{
     margin-right: 0px
   }
@@ -1088,7 +1097,7 @@
 @media (max-width:767px){
   .to-explore{top: -45px !important;}
   .frame-img{
-    width:280px !important;text-align: center;
+    width:270px !important;text-align: center;
   }
   .product .itemBox{
    margin: 20px 20px 0 !important
@@ -1292,7 +1301,7 @@
       width: 0 !important;
     }
     .timeline ul li{
-      height: 200vh;
+      height: 50vh !important;
       padding: 20px 40px;
     overflow: hidden;
     }
@@ -1552,8 +1561,10 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   }
   .my-default{
     margin-top: 1rem !important;
-    margin-bottom: 1rem !important;
+    margin-bottom: 2rem !important;
 }
+.my-def-2{ margin-top: 1rem !important;
+  margin-bottom: 0rem !important;}
 .mb-about{
   margin-bottom: 2rem !important;
 }
@@ -1696,7 +1707,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   .w-130p{width: 130px !important;}
   .w-80p{width: 100px !important;}
   .brand-name{width:14% !important}
-  .BigCaslon25{font-size: 30px !important;}
+  .BigCaslon25{font-size: 25px !important;}
   p{font-size: 19px !important;}
   .content-img img{width:80%;margin: 0 60px !important;}
   .header3-about{padding-top: 250px;}
@@ -1756,7 +1767,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   .BigCaslon-30{font-size: 30px !important;}
   .register input::placeholder{font-size: 14px !important;letter-spacing: 2px;}
   .register input{padding-right:10px;width: 350px;margin-bottom: 50px;}
-  #eventType, #DESTINATION{padding-right:10px;width: 350px}
+  #eventType, #DESTINATION{padding-right:0px;width: 350px}
   .btn-submit input,.register .resg-p input{width: auto;}
   /* .register .resg-in input{width: 215px;} */
 }
@@ -1900,7 +1911,7 @@ border-bottom: 1px solid #999;}
 .for-m-top-2{margin-top: 30%;}
 
 .box-section{
-  height: 100vh;position: relative;margin-bottom: 0px;
+  height: 100vh;position: relative;margin-bottom: 30px;
  
 }
 .box-section-info{
@@ -1944,7 +1955,7 @@ text-align: center;width: 100%;
   .hide-sec{display: none;}
 @media (max-width:767px){
   
-  .hide-sec{display: block;}
+  .hide-sec{display: block;margin-top: 50px;}
   .box-section-2{display: none;}
 }
 .box-section-5{height: 65vh !important;margin-bottom: 0px;margin-top: 0px;}
@@ -2019,7 +2030,130 @@ text-align: center;width: 100%;
 .career-top{margin-top: 50px;}
 .for-m-services{margin-bottom: 30px;}
 .logo-box-brands{margin:50px 0}
+.hos-t-x{    width: 80%;
+  margin: 0 auto;}
+  @media (min-width:1600px){
+    .contact-b {
+      width: 35%;}
+      .contact{margin-bottom: 150px;}
+    .con-my{margin: 3rem 0;}
+    .btn-submit input{padding: 5px 15px 5px 15px !important;}
+    .logos-width{width: 205px;margin-bottom: 20px;}
+    .logos-width2{width: 180px}
+    .home-header{
+      height:80vh
+    }
+    .home-st{width: 32%;top: 50%;}
+    .home-st h2{line-height: 1.4;}
+    .hero-btn {
+      position: absolute;left:50%;top:120%;transform: translate(-50%,-50%);
+    }
+    .hero-btn-5{top:19%;}
+    .hb6{top:23%;}
+  
+    .tlt-events{margin-top: 70px;}
+    .tlt-events .tlt-concept, .tlt-hospitality .tlt-concept, .tlt-living .tlt-concept{margin-bottom: 120px;}
+    .mx-auto{right:0}
+    .tlt-events .tlt-concept p{width: 47% !important;}
+    footer .content{width: 98% !important;}
+    .container-96{width:80%}
+    .for-filter ul li{font-size: 35px !important;}
+    .img-for-logo{width: 150px;height: 60px;}
+  .img-for-logo2{width: 275px;height: 50px;}
+  .img-for-logo3{width: 175px;}
+  .for-img-logo4{width: 545px;height: 50px;}
+  .img-for-logo5{width: 77px;}
+  .box-text-about{
+    position: absolute;left:50%;top: 50%;transform: translate(-50%,-50%);
+  text-align: center;width: 100%;
+  }
+  .text-w-50{width: 70%;}
+  .tlt-hospitality .tlt-concept p, .tlt-living .tlt-concept p{max-width: 930px;}
+  .tlt-events, .tlt-hospitality, .tlt-living{min-height: 30vh !important;}
+  .branch-tree{margin-top: 2rem;}
+  .branches-list{margin-top: 2rem !important;margin-bottom: 5rem !important;}
+  .my-7-5 {
+    margin-top: 5rem !important;
+    margin-bottom: 7rem !important;
+  }
+  .text-box-brands{position: absolute;left:50%;top: 26%;transform: translate(-50%,-50%);text-align: center;width: 45%;}
+  .brands-text{height: 80vh;}
+  .div-hei-50{height: 40vh;}
+  .w-text-80{width:52%}
+  .w-text-lg-80{width: 75%;}
+  .img-lg{width: 200px !important;}
+  .container-1920{max-width: 1500px  ; margin:0 auto}
+  .p-24 {
+    padding: 0 28%;
+  }
+  .my-default a{font-size: 21px !important;}
+  .navbar-expand-lg .navbar-nav .nav-link, .navbar-light .navbar-nav .active > .nav-link{
+    font-size:18px !important;}
+    .fa-angle-right:before{font-size: 18px;}
+    .d-links a{font-size: 20px !important;margin-top: 5px;}
+    .w-text-80-2{
+      width: 85%
+    }
+    .w-text-80-3{
+      width: 90%
+    }
+    .box-section-2{ height: 70vh;position: relative;margin-bottom: 0px;margin-top: 70px;}
+    .col-md-6{padding: 0;}
+    .p-1920{padding-bottom: 20px;}
+    .img-bo{width: 600px;height: 600px;}
+    .img-bo2{width: 675px;height: 675px;}
+    .eight-img{width: 170px;}
+    .header3-about .hero-btn{margin: 50px 0px 170px !important;}
+    .img-w-320{width: 350px;height: 300px;}
+    .owl-carousel .owl-nav button.owl-prev{
+      top: 33%;
+      left:-27px
+    }
+    .owl-carousel .owl-nav button.owl-next {
+      right: -10px;
+  }
+  .the-center-img{width:250px !important}
+  .all-services p{width: 70% !important;}
+  .img-box-ev{width: 720px;height: 385px;}
+  .w-text-90-disc{width: 85%;}
+  .join-family{padding: 142px 0;margin-top:-120px ;}
+  .join-family-2{margin-top:0px ;}
+  .box-section-5{height: 45vh !important;margin-bottom: 25px;margin-top: 0px;}
+  .event-lifetime .join-family h3 a{
+    color: #000;font-family: 'Big Caslon'  !important;
+    font-size:35px !important;
+  }
+  .card-img-top{width: 350px;height: 400px;}
+  .card-img-top2{width: 350px;height: 230px;}
+  .latest-news {
+    
+    margin: -20px 0 25px;
+  }
+  .career-family{margin-bottom:150px !important;margin-top: 0;}
+  .career-celebrate .celebrate{width: 43%;}
+  .career-top{margin-top: 130px;margin-bottom: 170px;}
+  .career-celebrate{
+   
+    padding: 50px 0;margin-bottom: 180px;margin-top: 180px;
+  }
+  .box-career{top: 60%;}
+  .for-m-services{margin-bottom: 120px;}
+  .logo-box-brands{margin:100px 0}
+  .hos-t-x{    width: 75%;
+    margin: 0 auto;}
+  }
+  .for-sound{margin:50px 0 50px;padding-top: 30px;}
 @media (min-width:1900px){
+  .for-sound{margin:130px 0 50px;padding: 50px 0;}
+  .more-detalis{margin: 100px auto 100px !important}
+  .more-detalis-1 {
+   
+    margin: 100px auto 100px;
+}
+  .my-default{
+    margin-top: 5rem !important;
+    margin-bottom: 3rem !important;
+  }
   .contact-b {
     width: 35%;}
     .contact{margin-bottom: 150px;}
@@ -2056,7 +2190,7 @@ text-align: center;width: 100%;
 }
 .text-w-50{width: 70%;}
 .tlt-hospitality .tlt-concept p, .tlt-living .tlt-concept p{max-width: 930px;}
-.tlt-events, .tlt-hospitality, .tlt-living{min-height: 70vh !important;}
+.tlt-events, .tlt-hospitality, .tlt-living{min-height: 30vh !important;}
 .branch-tree{margin-top: 2rem;}
 .branches-list{margin-top: 2rem !important;margin-bottom: 5rem !important;}
 .my-7-5 {
@@ -2066,7 +2200,8 @@ text-align: center;width: 100%;
 .text-box-brands{position: absolute;left:50%;top: 26%;transform: translate(-50%,-50%);text-align: center;width: 45%;}
 .brands-text{height: 80vh;}
 .div-hei-50{height: 40vh;}
-.w-text-80{width:75%}
+.w-text-80{width:52%}
+.w-text-lg-80{width: 75%;}
 .img-lg{width: 200px !important;}
 .container-1920{max-width: 1500px  ; margin:0 auto}
 .p-24 {
@@ -2100,7 +2235,7 @@ text-align: center;width: 100%;
 }
 .the-center-img{width:250px !important}
 .all-services p{width: 70% !important;}
-.img-box-ev{width: 720px;height: 360px;}
+.img-box-ev{width: 720px;height: 385px;}
 .w-text-90-disc{width: 85%;}
 .join-family{padding: 142px 0;margin-top:-120px ;}
 .join-family-2{margin-top:0px ;}
@@ -2125,6 +2260,8 @@ text-align: center;width: 100%;
 .box-career{top: 60%;}
 .for-m-services{margin-bottom: 120px;}
 .logo-box-brands{margin:100px 0}
+.hos-t-x{    width: 75%;
+  margin: 0 auto;}
 }
 
 
@@ -2139,7 +2276,7 @@ text-align: center;width: 100%;
 .event-3{background:url('../images/Logos-larg/PNG/Events & Entertainment/The Sound of The Lemon Tree.png') no-repeat center;background-size: contain;}
 .event-4{background:url('../images/newLogo/balearc.png') no-repeat center;background-size: contain;}
 .b-hos-1{background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;background-size: contain;}
-.b-hos-2{background:url('../images/Logos-larg/PNG/Hospitality/Rituals.png') no-repeat center;background-size: 75%;}
+.b-hos-2{background:url('../images/Logos-larg/PNG/Rituals.png') no-repeat center;background-size: 75%;}
 .b-hos-3{background:url('../images/Logos-larg/PNG/Hospitality/Le Sidi Boutique Hotel & Restaurant.png') no-repeat center;background-size: contain;}
 .b-hos-4{background:url('../images/Logos-larg/PNG/Hospitality/Villa Coconut.png') no-repeat center;background-size: contain;}
 .b-hos-5{background:url('../images/Logos-larg/PNG/Hospitality/The Quiet Cat.png') no-repeat center;background-size: contain;}
@@ -2153,6 +2290,7 @@ text-align: center;width: 100%;
 
 }
 .w-66{width: 66%;}
+.main-brands-sm{display: none;}
 /* added by me */
 @media (max-width:767px){
   .imgbox-w-h {
@@ -2167,11 +2305,150 @@ text-align: center;width: 100%;
 .my-7-5 {margin-top: 0rem !important;}
 .about-tlt .tlt-concept p{font-size: 18px !important;}
 .tlt-hospitality {
-  padding: 3rem  0rem;
+  padding: 3rem  0rem 0;
 }
 .branch-tree p {margin-top: 2rem;}
-/* .box-section-info {bottom:0;z-index: 1000;} */
+/* .box-section-info {top:38%;} */
 .wed-ul{line-height: 1,2;}
 .logo-box-brands-hos{margin:12px 0}
 .w-66{width: 90%;}
+.main-brands-lg{display: none;}
+.main-brands-sm{display: block;}
+}
+
+@media (min-width:1200px)  and (min-height:900px){
+  .contact-b {
+    width: 35%;}
+    .contact{margin-bottom: 150px;}
+  .con-my{margin: 3rem 0;}
+  .btn-submit input{padding: 5px 15px 5px 15px !important;}
+  .logos-width{width: 205px;margin-bottom: 20px;}
+  .logos-width2{width: 180px}
+  .home-header{
+    height:80vh
+  }
+  .home-st{width: 32%;top: 50%;}
+  .home-st h2{line-height: 1.4;}
+  .hero-btn {
+    position: absolute;left:50%;top:120%;transform: translate(-50%,-50%);
+  }
+  .hero-btn-5{top:19%;}
+  .hb6{top:23%;}
+
+  .tlt-events{margin-top: 70px;}
+  .tlt-events .tlt-concept, .tlt-hospitality .tlt-concept, .tlt-living .tlt-concept{margin-bottom: 120px;}
+  .mx-auto{right:0}
+  .tlt-events .tlt-concept p{width: 47% !important;}
+  footer .content{width: 98% !important;}
+  .container-96{width:80%}
+  .for-filter ul li{font-size: 35px !important;}
+  .img-for-logo{width: 150px;height: 60px;}
+.img-for-logo2{width: 275px;height: 50px;}
+.img-for-logo3{width: 175px;}
+.for-img-logo4{width: 545px;height: 50px;}
+.img-for-logo5{width: 77px;}
+.box-text-about{
+  position: absolute;left:50%;top: 50%;transform: translate(-50%,-50%);
+text-align: center;width: 100%;
+}
+.text-w-50{width: 70%;}
+.tlt-hospitality .tlt-concept p, .tlt-living .tlt-concept p{max-width: 930px;}
+.tlt-events, .tlt-hospitality, .tlt-living{min-height: 30vh !important;}
+.branch-tree{margin-top: 2rem;}
+.branches-list{margin-top: 2rem !important;margin-bottom: 5rem !important;}
+.my-7-5 {
+  margin-top: 5rem !important;
+  margin-bottom: 7rem !important;
+}
+.text-box-brands{position: absolute;left:50%;top: 26%;transform: translate(-50%,-50%);text-align: center;width: 45%;}
+.brands-text{height: 80vh;}
+.div-hei-50{height: 40vh;}
+.w-text-80{width:52%}
+.w-text-lg-80{width: 75%;}
+.img-lg{width: 200px !important;}
+.container-1920{max-width: 1500px  ; margin:0 auto}
+.p-24 {
+  padding: 0 28%;
+}
+.my-default a{font-size: 21px !important;}
+.navbar-expand-lg .navbar-nav .nav-link, .navbar-light .navbar-nav .active > .nav-link{
+  font-size:18px !important;}
+  .fa-angle-right:before{font-size: 18px;}
+  .d-links a{font-size: 20px !important;margin-top: 5px;}
+  .w-text-80-2{
+    width: 85%
+  }
+  .w-text-80-3{
+    width: 90%
+  }
+  .box-section-2{ height: 70vh;position: relative;margin-bottom: 0px;margin-top: 70px;}
+  .col-md-6{padding: 0;}
+  .p-1920{padding-bottom: 20px;}
+  .img-bo{width: 600px;height: 600px;}
+  .img-bo2{width: 675px;height: 675px;}
+  .eight-img{width: 170px;}
+  .header3-about .hero-btn{margin: 50px 0px 170px !important;}
+  .img-w-320{width: 350px;height: 300px;}
+  .owl-carousel .owl-nav button.owl-prev{
+    top: 33%;
+    left:-27px
+  }
+  .owl-carousel .owl-nav button.owl-next {
+    right: -10px;
+}
+.the-center-img{width:250px !important}
+.all-services p{width: 70% !important;}
+.img-box-ev{width: 720px;height: 385px;}
+.w-text-90-disc{width: 85%;}
+.join-family{padding: 142px 0;margin-top:-120px ;}
+.join-family-2{margin-top:0px ;}
+.box-section-5{height: 45vh !important;margin-bottom: 25px;margin-top: 0px;}
+.event-lifetime .join-family h3 a{
+  color: #000;font-family: 'Big Caslon'  !important;
+  font-size:35px !important;
+}
+.card-img-top{width: 350px;height: 400px;}
+.card-img-top2{width: 350px;height: 230px;}
+.latest-news {
+  
+  margin: -20px 0 25px;
+}
+.career-family{margin-bottom:150px !important;margin-top: 0;}
+.career-celebrate .celebrate{width: 43%;}
+.career-top{margin-top: 130px;margin-bottom: 170px;}
+.career-celebrate{
+ 
+  padding: 50px 0;margin-bottom: 180px;margin-top: 180px;
+}
+.box-career{top: 60%;}
+.for-m-services{margin-bottom: 120px;}
+.logo-box-brands{margin:100px 0}
+.hos-t-x{    width: 75%;
+  margin: 0 auto;}
+}@media (min-width:1700px) and (min-height:1200px){
+  .box-text-info{top:50%}
+  .box-section-5 {
+    height: 35vh !important;}
+}
+@media (min-width:1200px) and (min-height:1200px){
+  .box-text-info{top:50%}
+  .box-section-5 {
+    height: 35vh !important;}
+}
+.clandestine{width: 150px;}
+.hm-logo{height: 50vh;margin:100px 0;}
+.sp-sound{font-family: 'Big Caslon'  !important;display:block;font-size: 200px;position: absolute;top: -150px;left: 48%;}
+@media (max-width:767px){
+  .header-sm{min-height: 85vh !important;}
+  .box-text-about{top:50%;width: 81%;}
+  .product .itemBox{height: 280px;}
+  .my-7-5{margin: 5rem 0 !important;}
+  .about-section .container .text-center {
+    margin-bottom: 40px !important;
+}
+.clandestine img{width: 120px !important;}
+
+.brands-text-5{height: 100vh;}
+.hm-logo{height: 50vh;margin:50px 0 !important;}
+.sp-sound{top:-110px;left: 38;font-size: 150px;}
 }

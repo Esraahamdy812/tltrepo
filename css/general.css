@@ -1186,32 +1186,21 @@ footer {
 }
 
 .navbar-expand-lg .navbar-collapse{margin: 15px 0 !important;}
-.icon,.icon2{position: absolute;top: 30px; right:20px;width: 40px;height: 40px;cursor: pointer;background: transparent;}
+.icon,.icon2{position: absolute;top: 40px; right:20px;width: 0px;height: 0px;cursor: pointer;background: transparent;}
 
-.hamb,.hamb2{
-  width: 28px;
-  height: 2px;
-  -webkit-position: absolute;top: 50%; left:40%;transform: translate(-50%,-50%);
-  -webkit-transition: .5s;
-}
+
 .hamb,.hamb2{
   width: 28px;
   height: 2px;
   position: absolute;top: 50%; left:40%;transform: translate(-50%,-50%);
   transition: .5s;
 }
+
 .hamb{
-  -webkit-background-color: #000;
-  -webkit-box-shadow: 0 2px 5px rgba(0,0,0.2);
+  background-color: #000;
+  box-shadow: 0 2px 5px rgba(0,0,0.2);
 }
-.hamb{
-  -webkit-background-color: #000;
-  -webkit-box-shadow: 0 2px 5px rgba(0,0,0.2);
-}
-.hamb2{
-  -webkit-background-color: #fff;
-  -webkit-box-shadow: 0 2px 5px rgba(255, 255, 255);
-}
+
 .hamb2{
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(255, 255, 255);
@@ -1223,18 +1212,12 @@ footer {
   transition: .5s;
 
 }
-.hamb::before,.hamb::after{
-  -webkit-background-color: #000;
-  -webkit-box-shadow: 0 2px 5px rgba(0,0,0.2);
-}
+
 .hamb::before,.hamb::after{
   background-color: #000;
   box-shadow: 0 2px 5px rgba(0,0,0.2);
 }
-.hamb2::before,.hamb2::after{
-  background-color: #fff;
-  -webkit-box-shadow: 0 2px 5px rgba(255, 255, 255);
-}
+
 .hamb2::before,.hamb2::after{
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(255, 255, 255);
@@ -1248,21 +1231,13 @@ footer {
   width:28px;
 }
 
-.icon.active .hamb{
-  background-color:rgba(0,0,0,0);
-  -webkit-box-shadow: 0 2px 5px rgba(0,0,0,0);
 
-}
 .icon.active .hamb{
   background-color:rgba(0,0,0,0);
   box-shadow: 0 2px 5px rgba(0,0,0,0);
 
 }
-.icon2.active .hamb2{
-  background-color:rgba(255, 255, 255, 0);
-  -webkit-box-shadow: 0 2px 5px rgba(255, 250, 250, 0);
 
-}
 .icon2.active .hamb2{
   background-color:rgba(255, 255, 255, 0);
   box-shadow: 0 2px 5px rgba(255, 250, 250, 0);
@@ -1293,3 +1268,6 @@ footer {
 .navbar-nav-2 .hvr-underline-reveal:before{background: #131313 !important;}
 .links-c a:hover{color: rgb(0, 225, 255) !important;transform: scale(1.2);}
 
+@media (max-width:767px){
+  .clandestine img{width: 120px !important;}
+}
