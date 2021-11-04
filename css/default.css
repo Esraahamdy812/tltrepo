@@ -353,6 +353,7 @@
   @media (max-width:767px){
     .tlt-events ,.tlt-hospitality , .tlt-living{
       padding: 100px 0 20px;
+      min-height: 50vh;
     }
   }
   .tlt-hospitality {
@@ -809,16 +810,16 @@
   .new-season .card{width: 100%;margin: 0 auto;text-align: center;}
 }
 @media(min-width:1200px){
-  .new-season .card-hr-news::after{
+  /* .new-season .card-hr-news::after{
     content: "";width: 1px;height: 248px;
     background: rgb(117, 114, 114);
     transform:rotate(90deg);
     position: absolute;bottom:-27%;left: 50%;
-  }
-  .new-season .card-hr-news2::after{
+  } */
+  /* .new-season .card-hr-news2::after{
     bottom:-22%;left: 50%;
-  }
-  .new-season .card-hr::after{
+  } */
+  /* .new-season .card-hr::after{
     content: "";width: 1px;height: 248px;
     background: rgb(117, 114, 114);
     transform:rotate(90deg);
@@ -829,7 +830,7 @@
     background: rgb(117, 114, 114);
     transform:rotate(90deg);
     position: absolute;bottom:-49%;left: 50%;
-  }
+  } */
 }
 @media(max-width:1199px){
   .new-season .card-hr{
@@ -1045,25 +1046,25 @@
 
 
 
-.img-cabans{background:url('../images/brands/liv-1.png');}
-.rituals-village{background:url('../images/brands/liv-2.png');}
+.img-cabans{background:url('../images/brands/liv-1.png');background-position: bottom center;}
+.rituals-village{background:url('../images/brands/liv-2.png');background-position: center center;}
 .boutique-living{background:url('../images/brands/liv-3.png');}
-.boutique-hotel{background:url('../images/brands/liv-4.png');}
-.img-hospitality{background:url('../images/brands/img1.png');}
-.img-hospitality2{background:url('../images/brands/img2.png');}
-.img-hospitality3{background:url('../images/brands/hospitality/head3.png');}
-.img-hospitality4{background:url('../images/brands/img4.png');}
-.img-hospitality5{background:url('../images/brands/img5.png');}
-.img-event{background:url('../images/brands/Image-9.png');}
-.img-event2{background:url('../images/brands/F_F-431.png');}
-.img-event3{background:url('../images/brands/_Q7A3606.png');}
-.img-event4{background:url('../images/brands/Header.png');}
-.img-can1{background:url('../images/brands/can-1.png');}
+.boutique-hotel{background:url('../images/brands/liv-4.png');background-position: bottom center;}
+.img-hospitality{background:url('../images/brands/img1.png');background-position: center;}
+.img-hospitality2{background:url('../images/brands/img2.png');background-position: bottom center;}
+.img-hospitality3{background:url('../images/brands/hospitality/head3.png');background-position: bottom center;}
+.img-hospitality4{background:url('../images/brands/img4.png');background-position: bottom center;}
+.img-hospitality5{background:url('../images/brands/img5.png');background-position: bottom center;}
+.img-event{background:url('../images/brands/Image-9.png');background-position: center;}
+.img-event2{background:url('../images/brands/F_F-431.png');background-position: top ;}
+.img-event3{background:url('../images/brands/_Q7A3606.png');background-position: bottom center;}
+.img-event4{background:url('../images/brands/Header.png');background-position: center;}
+.img-can1{background:url('../images/brands/can-1.png');background-position: bottom center;}
 .img-can2{background:url('../images/brands/can-2.png');}
 .img-can3{background:url('../images/brands/can-3.png');}
 .img-can4{background:url('../images/brands/can-4.png');}
 .frame-img{
-  background-position: center center;
+  
   background-size: cover;transition: .5s;
   position: relative;overflow: hidden;
   width:340px
@@ -1094,11 +1095,16 @@
   }
   .product .itemBox h4{text-align: left !important;font-size: 18px !important;}
 }
+.li-style h3{margin-top: 25px !important;margin-bottom: 100px;}
 @media (max-width:767px){
   .to-explore{top: -45px !important;}
   .frame-img{
     width:270px !important;text-align: center;
+    position: absolute;top:40%;left:50%;transform: translate(-50%,-50%);
   }
+  .frame-img-life{  width:270px !important;text-align: center;position: relative;margin-top: 130px;}
+  .product .itemBox h4{margin-top: 130px !important;}
+  .li-style h3{margin-top: -70px !important;margin-bottom: 20px;}
   .product .itemBox{
    margin: 20px 20px 0 !important
   }
@@ -1228,6 +1234,9 @@
       bottom:-67px;
       
 
+    }
+    @media (min-width:1900px){
+      .time-line .time::after{ height:557px;}
     }
   
     .timeline{position: relative;margin: 50px auto;}
@@ -1419,14 +1428,14 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   .head-img{height:auto;margin-top: 20px;}
 } 
 /*sitemap*/
-.site-header{margin: 100px auto 50px;background: #EBE9E9;min-height: 150px;line-height:150px;}
+.site-header{margin: 100px auto 100px;background: #EBE9E9;min-height: 150px;line-height:150px;}
 @media (max-width:767px){
   .site-header{margin: 50px auto ;}
 }
 .my-ul li{list-style: disc !important;list-style: none !important;}
-.my-ul li a{font-family: 'Gill Sans';margin-left: 15px;}
+.my-ul li a{font-family: 'GillSans-Light';margin-left: 15px;}
 .site-map p{margin-bottom:.5rem !important;}
-.sitemap-res{margin-left: 100px;margin-bottom: 50px;}
+.sitemap-res{margin-left: 10px;margin-bottom: 50px;}
 
 .main-logo{width: 100px;}
 @media (min-width:1451px){
@@ -1621,7 +1630,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
 }
 .product .itemBox{
   position: relative;
-  width:300px;
+ 
   height:300px;margin: 20px;display: block;
 }
 .product .itemBox h4{
@@ -1686,7 +1695,7 @@ padding-top: 200px !important;width: 50% !important;margin:0 400px 50px;
   .for-filter ul li{ font-size: 25px !important;}
   .hide-p{font-size: 20px !important;}
   .container, .container-lg, .container-md, .container-sm, .container-xl{max-width:1500px ;}
-  .frame-img{width:420px;height: 200px;}
+  .frame-img{width:420px;height: 270px;}
   .owl-prev span,.owl-next span{font-size: 20px !important;}
   .owl-carousel .owl-nav button.owl-prev,.owl-carousel .owl-nav button.owl-next{top: 27%;}
   .owl-carousel .owl-nav button.owl-next{right: 0px;}
@@ -1963,8 +1972,8 @@ text-align: center;width: 100%;
 @media (min-width:1700px){
   .box-section-2{ height: 80vh;position: relative;margin-bottom: 100px;margin-top: 20px;}
 }
-.card-img-top{height:150px}
-.card-img-top2{height:300px}
+.card-img-top2{height:200px;width: 350px;}
+.card-img-top{height:300px;width: 350px;}
 .div-logo-center-5{position: absolute;left:50%;top: 50%;transform: translate(-50%,-50%);
   width: 90%;height: 80%;}
     
@@ -2010,10 +2019,11 @@ text-align: center;width: 100%;
 .for-img-logo4{width: 350px;height: 50px;}
 .img-box-ev{width: 720px;height: 300px;}
 @media (min-width:1500px){
-  .img-for-logo{width: 130px;height: 50px;}
-.img-for-logo2{width: 300px;height: 50px;}
-.img-for-logo3{width: 200px;}
+  .img-for-logo{width: 100px;height: 50px;}
+.img-for-logo2{width: 0px;height: 50px;}
+.img-for-logo3{width: 0px;}
 .for-img-logo4{width: 500px;height: 50px;}
+.img-for-logo5{width: 0px;}
 }
 
 .box-text-about{
@@ -2227,11 +2237,12 @@ text-align: center;width: 100%;
   .header3-about .hero-btn{margin: 50px 0px 170px !important;}
   .img-w-320{width: 350px;height: 300px;}
   .owl-carousel .owl-nav button.owl-prev{
-    top: 33%;
+    top: 45%;
     left:-27px
   }
   .owl-carousel .owl-nav button.owl-next {
     right: -10px;
+    top: 34%;
 }
 .the-center-img{width:250px !important}
 .all-services p{width: 70% !important;}
@@ -2245,7 +2256,7 @@ text-align: center;width: 100%;
   font-size:35px !important;
 }
 .card-img-top{width: 350px;height: 400px;}
-.card-img-top2{width: 350px;height: 230px;}
+.card-img-top2{width: 350px;height: 200px;}
 .latest-news {
   
   margin: -20px 0 25px;
@@ -2276,7 +2287,7 @@ text-align: center;width: 100%;
 .event-3{background:url('../images/Logos-larg/PNG/Events & Entertainment/The Sound of The Lemon Tree.png') no-repeat center;background-size: contain;}
 .event-4{background:url('../images/newLogo/balearc.png') no-repeat center;background-size: contain;}
 .b-hos-1{background:url('../images/newLogo/TLT FINAL LOGO-01.png') no-repeat center;background-size: contain;}
-.b-hos-2{background:url('../images/Logos-larg/PNG/Rituals.png') no-repeat center;background-size: 75%;}
+.b-hos-2{background:url('../images/Logos-larg/PNG/Rituals\ \(3\).png') no-repeat center;background-size: contain;}
 .b-hos-3{background:url('../images/Logos-larg/PNG/Hospitality/Le Sidi Boutique Hotel & Restaurant.png') no-repeat center;background-size: contain;}
 .b-hos-4{background:url('../images/Logos-larg/PNG/Hospitality/Villa Coconut.png') no-repeat center;background-size: contain;}
 .b-hos-5{background:url('../images/Logos-larg/PNG/Hospitality/The Quiet Cat.png') no-repeat center;background-size: contain;}
@@ -2317,6 +2328,181 @@ text-align: center;width: 100%;
 }
 
 @media (min-width:1200px)  and (min-height:900px){
+  .contact-b {
+    width: 35%;}
+    .contact{margin-bottom: 150px;}
+  .con-my{margin: 3rem 0;}
+  .btn-submit input{padding: 5px 15px 5px 15px !important;}
+  .logos-width{width: 205px;margin-bottom: 20px;}
+  .logos-width2{width: 180px}
+  .home-header{
+    height:80vh
+  }
+  .home-st{width: 32%;top: 50%;}
+  .home-st h2{line-height: 1.4;}
+  .hero-btn {
+    position: absolute;left:50%;top:120%;transform: translate(-50%,-50%);
+  }
+  .hero-btn-5{top:19%;}
+  .hb6{top:23%;}
+
+  .tlt-events{margin-top: 70px;}
+  .tlt-events .tlt-concept, .tlt-hospitality .tlt-concept, .tlt-living .tlt-concept{margin-bottom: 120px;}
+  .mx-auto{right:0}
+  .tlt-events .tlt-concept p{width: 47% !important;}
+  footer .content{width: 98% !important;}
+  .container-96{width:80%}
+  .for-filter ul li{font-size: 35px !important;}
+  .img-for-logo{width: 130px;height: 60px;}
+.img-for-logo2{width: 275px;height: 50px;}
+.img-for-logo3{width: 175px;}
+.for-img-logo4{width: 545px;height: 50px;}
+.img-for-logo5{width: 7px;}
+.for-hid-col{display:none}
+.box-text-about{
+  position: absolute;left:50%;top: 50%;transform: translate(-50%,-50%);
+text-align: center;width: 100%;
+}
+.text-w-50{width: 70%;}
+.tlt-hospitality .tlt-concept p, .tlt-living .tlt-concept p{max-width: 930px;}
+.tlt-events, .tlt-hospitality, .tlt-living{min-height: 30vh !important;}
+.branch-tree{margin-top: 2rem;}
+.branches-list{margin-top: 2rem !important;margin-bottom: 5rem !important;}
+.my-7-5 {
+  margin-top: 5rem !important;
+  margin-bottom: 7rem !important;
+}
+.text-box-brands{position: absolute;left:50%;top: 26%;transform: translate(-50%,-50%);text-align: center;width: 45%;}
+.brands-text{height: 80vh;}
+.div-hei-50{height: 40vh;}
+.w-text-80{width:52%}
+.w-text-lg-80{width: 75%;}
+.img-lg{width: 200px !important;}
+.container-1920{max-width: 1500px  ; margin:0 auto}
+.p-24 {
+  padding: 0 28%;
+}
+.my-default a{font-size: 21px !important;}
+.navbar-expand-lg .navbar-nav .nav-link, .navbar-light .navbar-nav .active > .nav-link{
+  font-size:18px !important;}
+  .fa-angle-right:before{font-size: 18px;}
+  .d-links a{font-size: 20px !important;margin-top: 5px;}
+  .w-text-80-2{
+    width: 85%
+  }
+  .w-text-80-3{
+    width: 90%
+  }
+  .box-section-2{ height: 70vh;position: relative;margin-bottom: 0px;margin-top: 70px;}
+  .col-md-6{padding: 0;}
+  .p-1920{padding-bottom: 20px;}
+  .img-bo{width: 600px;height: 600px;}
+  .img-bo2{width: 675px;height: 675px;}
+  .eight-img{width: 170px;}
+  .header3-about .hero-btn{margin: 50px 0px 170px !important;}
+  .img-w-320{width: 350px;height: 300px;}
+  .owl-carousel .owl-nav button.owl-prev{
+    top: 33%;
+    left:-27px
+  }
+  .owl-carousel .owl-nav button.owl-next {
+    right: -10px;
+}
+.the-center-img{width:250px !important}
+.all-services p{width: 70% !important;}
+.img-box-ev{width: 720px;height: 385px;}
+.w-text-90-disc{width: 85%;}
+.join-family{padding: 142px 0;margin-top:-120px ;}
+.join-family-2{margin-top:0px ;}
+.box-section-5{height: 45vh !important;margin-bottom: 25px;margin-top: 0px;}
+.event-lifetime .join-family h3 a{
+  color: #000;font-family: 'Big Caslon'  !important;
+  font-size:35px !important;
+}
+
+.latest-news {
+  
+  margin: -20px 0 25px;
+}
+.career-family{margin-bottom:150px !important;margin-top: 0;}
+.career-celebrate .celebrate{width: 43%;}
+.career-top{margin-top: 130px;margin-bottom: 170px;}
+.career-celebrate{
+ 
+  padding: 50px 0;margin-bottom: 180px;margin-top: 180px;
+}
+.box-career{top: 60%;}
+.for-m-services{margin-bottom: 120px;}
+.logo-box-brands{margin:100px 0}
+.hos-t-x{    width: 75%;
+  margin: 0 auto;}
+}
+@media (min-width:1800px)  and (min-height:900px){
+  .img-for-logo{width: 150px;height: 60px;}
+  .img-for-logo2{width: 275px;height: 50px;}
+  .img-for-logo3{width: 175px;}
+  .for-img-logo4{width: 545px;height: 50px;}
+  .img-for-logo5{width: 30px;}
+  .for-hid-col{display:block}
+}
+@media (min-width:1700px) and (min-height:1200px){
+  .box-text-info{top:50%}
+  .box-section-5 {
+    height: 35vh !important;}
+}
+@media (min-width:1200px) and (min-height:1200px){
+  .box-text-info{top:50%}
+  .box-section-5 {
+    height: 35vh !important;}
+}
+.clandestine{width: 150px;}
+.hm-logo{height: 50vh;margin:100px 0;}
+.sp-sound{font-family: 'Big Caslon'  !important;display:block;font-size: 200px;position: absolute;top: -150px;left: 48%;}
+.sm-pop{display: none;}
+@media (max-width:767px){
+  .header-sm{min-height: 87vh !important;}
+  .box-text-about{top:50%;width: 81%;}
+  .product .itemBox{height: 280px;}
+  .my-7-5{margin: 5rem 0 !important;}
+  .about-section .container .text-center {
+    margin-bottom: 40px !important;
+}
+.clandestine img{width: 120px !important;}
+
+.brands-text-5{height: 100vh;}
+.hm-logo{height: 50vh;margin:50px 0 !important;}
+.sp-sound{top:-110px;left: 38;font-size: 150px;}
+.sm-pop{display: block;}
+.lg-pop{display: none;}
+}
+
+.article-img{width: 280px;height: 200px;
+}
+.article-img1{background: url("../images/title/After\ Work-min.jpg") no-repeat ;background-size: cover;}
+.article-img2{background: url("../images/title/VC\ Announcement-min.jpg") no-repeat ;background-size: cover;}
+.article-img3{background: url("../images/title/Can\ Limon\ Concept\ Store.jpeg") no-repeat  ;background-size: cover;}
+.article-img4{background: url("../images/title/6f2ed70e-48b8-4272-b169-20fb5e2da0c1\ 2\ \(1\).jpg") no-repeat  ;background-size: cover;}
+@media (max-width:767px){
+  .article-img{height: 200px;
+  }
+}
+
+@media (min-width:1500px){
+  .article-img{height: 300px;
+  }
+}
+
+@media (min-width:1900px){
+  .for-sound{margin:130px 0 50px;padding: 50px 0;}
+  .more-detalis{margin: 100px auto 100px !important}
+  .more-detalis-1 {
+   
+    margin: 100px auto 100px;
+}
+  .my-default{
+    margin-top: 5rem !important;
+    margin-bottom: 3rem !important;
+  }
   .contact-b {
     width: 35%;}
     .contact{margin-bottom: 150px;}
@@ -2390,11 +2576,12 @@ text-align: center;width: 100%;
   .header3-about .hero-btn{margin: 50px 0px 170px !important;}
   .img-w-320{width: 350px;height: 300px;}
   .owl-carousel .owl-nav button.owl-prev{
-    top: 33%;
+    top: 40%;
     left:-27px
   }
   .owl-carousel .owl-nav button.owl-next {
     right: -10px;
+    top: 35%;
 }
 .the-center-img{width:250px !important}
 .all-services p{width: 70% !important;}
@@ -2408,7 +2595,7 @@ text-align: center;width: 100%;
   font-size:35px !important;
 }
 .card-img-top{width: 350px;height: 400px;}
-.card-img-top2{width: 350px;height: 230px;}
+.card-img-top2{width: 350px;height: 320px !important;}
 .latest-news {
   
   margin: -20px 0 25px;
@@ -2425,30 +2612,4 @@ text-align: center;width: 100%;
 .logo-box-brands{margin:100px 0}
 .hos-t-x{    width: 75%;
   margin: 0 auto;}
-}@media (min-width:1700px) and (min-height:1200px){
-  .box-text-info{top:50%}
-  .box-section-5 {
-    height: 35vh !important;}
-}
-@media (min-width:1200px) and (min-height:1200px){
-  .box-text-info{top:50%}
-  .box-section-5 {
-    height: 35vh !important;}
-}
-.clandestine{width: 150px;}
-.hm-logo{height: 50vh;margin:100px 0;}
-.sp-sound{font-family: 'Big Caslon'  !important;display:block;font-size: 200px;position: absolute;top: -150px;left: 48%;}
-@media (max-width:767px){
-  .header-sm{min-height: 85vh !important;}
-  .box-text-about{top:50%;width: 81%;}
-  .product .itemBox{height: 280px;}
-  .my-7-5{margin: 5rem 0 !important;}
-  .about-section .container .text-center {
-    margin-bottom: 40px !important;
-}
-.clandestine img{width: 120px !important;}
-
-.brands-text-5{height: 100vh;}
-.hm-logo{height: 50vh;margin:50px 0 !important;}
-.sp-sound{top:-110px;left: 38;font-size: 150px;}
 }
