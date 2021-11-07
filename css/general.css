@@ -1317,8 +1317,9 @@ footer {
 
 }
 .bg-img9{
-  background-image: url(https://via.placeholder.com/200x270);
+  background-image: url(../images/gallary/9.png);
   background-size: cover;
+  background-position: center;
 }
 .bg-img10{
   background-image: url(../images/gallary/g-r15.png);
