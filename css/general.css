@@ -10,7 +10,7 @@ html, body {
   padding: 0;
   box-sizing: border-box;
   font-family: 'AlegreyaSans';
-  color: #121212;
+  color: #212121;
 }
 
 a {
@@ -1507,3 +1507,43 @@ footer {
   }
 }
  .frame-img-life{margin-top:1.25rem;}
+
+
+ .layer-of-article
+{
+    position: absolute;
+    text-align: center;
+    top:100%;
+    left:0%;
+    opacity:0;
+    transition: bottom 0.5s, opacity 0.5s;
+
+}
+
+.article-img2:hover .layer-of-article {
+    opacity: 1;
+}
+.article-explr-layer{
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  height: 200px;
+  width: 100%;
+  z-index: 3;
+ opacity: 0;
+  top: 0%;
+  left: 0%;
+  transition: opacity 0.5s ease-in-out;
+}
+.article-explr-layer:hover {
+  opacity: 1;
+  
+}
+.article-explr-layer:hover .contenta {
+  bottom: 18px;
+}
+.contenta{
+  position: absolute;
+ bottom: 0; left: 40%;font-size: 16px;
+  transition:all .5s ease-in-out;letter-spacing: 1.5px;
+ 
+}
