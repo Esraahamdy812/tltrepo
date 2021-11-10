@@ -1528,7 +1528,6 @@ footer {
   position: absolute;
   height: 200px;
   width: 100%;
-  z-index: 3;
  opacity: 0;
   top: 0%;
   left: 0%;
